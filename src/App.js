@@ -62,7 +62,7 @@ function App() {
       } else if (options[computer - 1] === 'paper') {
         counter(options[user - 1], options[computer - 1]);
         setTimeout(() => { setComputerScore(computerScore + 1); }, 5000);
-        setTimeout(() => { setResult('You lose &#9785;'); }, 5000);
+        setTimeout(() => { setResult('You lose ☹️'); }, 5000);
       } else if (options[computer - 1] === 'scissors') {
         setTimeout(() => { setResult('🕺🏽 You WIN! 🍾 🥂'); }, 5000);
         counter(options[user - 1], options[computer - 1]);
@@ -83,7 +83,7 @@ function App() {
       }
     } else if (options[user - 1] === 'scissors') {
       if (options[computer - 1] === 'rock') {
-        setTimeout(() => { setResult('You lose &#9785;'); }, 5000);
+        setTimeout(() => { setResult('You lose ☹️'); }, 5000);
         counter(options[user - 1], options[computer - 1]);
         setTimeout(() => { setComputerScore(computerScore + 1); }, 5000);
       } else if (options[computer - 1] === 'paper') {
