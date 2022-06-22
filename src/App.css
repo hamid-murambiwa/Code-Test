@@ -1,3 +1,16 @@
+body {
+  background-color: #BABD42;
+  color: white;
+}
+
+h1, h2 {
+  color: #614124;
+}
+
+h3 {
+  color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -47,4 +60,53 @@
   display: none;
   justify-content: center;
   width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+#res {
+  justify-content: center;
+}
+
+.h-con {
+  min-height: 5vh;
+}
+
+#h {
+  display: none;
+  justify-content: center;
+  width: min-content;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+}
+
+.btn {
+  background-color: transparent;
+  margin-right: 15px;
+  border: none;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.button {
+  background-color: #406343;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px grey;
+}
+
+.button:hover {
+  background-color: #82A284;
 }
